@@ -5,22 +5,30 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <div className="App-header">
+
+                
+      <div align="center">
+       <h1>Asim Tech &reg;</h1> 
+       <input  type="search" placeholder="Search ..."/>
+       <input  type="submit" value="search"/>    
+       </div>
+       <hr/>
+<center>        
+<span className= "App-link"> 
+       <a href="#about">Home</a> |
+    
+       <a href="#portfolio">Services</a> |
+     
+       <a href="#contact">Contact</a>  |
+
+       <a href="#contact">About Us</a>
+
+    
+  </span>
+</center>
+<hr/>
+</div>
     );
   }
 }
